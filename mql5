@@ -1,0 +1,64 @@
+mql5
+// Support and Resistance Screener Pro MT5
+// Developer's site: forexroboteasy.com
+// Development name: Forex Robot Easy Team
+
+// Price Action Screener
+void PriceActionScreener()
+{
+    // Code for scanning the market for price action patterns
+    // and identifying potential support and resistance levels
+}
+
+// Pivot Points
+void CalculatePivotPoints(string timeframe)
+{
+    // Code for calculating and displaying pivot points for the specified timeframe
+}
+
+// Bullish and Bearish Pullbacks
+void PullbackDetection()
+{
+    // Code for detecting zones for bullish and bearish pullbacks in the market
+}
+
+// Harmonic Pattern and Volume Analysis
+void HarmonicPatternAndVolumeAnalysis()
+{
+    // Code for identifying strong support and resistance levels based on harmonic patterns and volume analysis
+}
+
+// Bank Level Zones
+void BankLevelZones()
+{
+    // Code for identifying and displaying bank level zones in the market
+}
+
+// All-in-one Level Indicator
+void AllInOneLevelIndicator()
+{
+    // Code for providing a comprehensive overview of important market levels with a single click
+}
+
+// Main function
+int OnInit()
+{
+    // Call necessary functions for the required features and requirements
+    PriceActionScreener();
+    CalculatePivotPoints('Daily');
+    CalculatePivotPoints('Weekly');
+    CalculatePivotPoints('Monthly');
+    PullbackDetection();
+    HarmonicPatternAndVolumeAnalysis();
+    BankLevelZones();
+    AllInOneLevelIndicator();
+    
+    return(INIT_SUCCEEDED);
+}
+
+// Start the program
+void OnStart()
+{
+    // Start the program by calling the OnInit function
+    OnInit();
+}
